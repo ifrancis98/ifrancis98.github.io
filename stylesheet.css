@@ -1,1 +1,28 @@
-
+@import url(http://fonts.googleapis.com/css?family=Lato:300,500);
+body {
+ padding: 25px; 
+ font: 300 16px/1.2 Lato;
+}
+.nav {
+  list-style: none;
+}
+.nav li {
+  float: right; 
+}
+.nav > li a {
+  display: block; 
+  padding: 12px 18px; 
+  text-decoration: none; 
+  color: #999; 
+  border-bottom: 1px solid #eee;
+  transition: all ease .5s;
+}
+.nav:hover > li a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+.nav > li:hover a {
+  opacity: 1;
+  color: #000;
+  border-color: #000;
+}
